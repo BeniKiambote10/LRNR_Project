@@ -18,10 +18,10 @@ const Navbar = () => {
           className={Mobile ? "nav-links-mobile" : "nav-links"}
           onClick={() => setMobile(false)}
         >
-          <Link to="/account" className="Quiz">
+          <Link to="/account" className="Account">
             <li>Account</li>
           </Link>
-          <Link to="/quiz" className="Account">
+          <Link to="/quiz-generation" className="Quiz">
             <li>Quiz Generation</li>
           </Link>
         </ul>
